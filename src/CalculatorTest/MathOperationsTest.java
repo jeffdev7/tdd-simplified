@@ -26,7 +26,8 @@ public class MathOperationsTest {
         int result = MathOperations.Sum(2,-2);
         int expectedResult = 0;
         assertEquals(result, expectedResult);
-    }@Test
+    }
+    @Test
     public void SumTest4(){
         int result = MathOperations.Sum(-2,1);
         int expectedResult = -1;
@@ -39,6 +40,7 @@ public class MathOperationsTest {
         int expectedResult = 0;
         assertEquals(result, expectedResult);
     }
+
     @Test
     public void SubTest2(){
         int result = MathOperations.Sub(-2,2);
@@ -57,12 +59,14 @@ public class MathOperationsTest {
         int expectedResult = 4;
         assertEquals(result, expectedResult);
     }
+
     @Test
     public void MultiplyTest2(){
         int result = MathOperations.Multiplication(2,5);
         int expectedResult = 10;
         assertEquals(result, expectedResult);
     }
+
     @Test
     public void MultiplyTest3(){
         int result = MathOperations.Multiplication(2,-2);
